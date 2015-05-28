@@ -5,9 +5,13 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <video></video>
-    <button id="shoot">撮影</button>
+    <div>
+      <button id="shoot">撮影</button>
+      幅<input type="range" id="width" min="20" max="100" step="10"><br>
+      高さ<input type="range" id="height" min="20" max="100" step="10">
+    </div>
+    <video src="01.mp4" controls></video>
+    <canvas width="800" height="600"></canvas>
     <script src="app.js"></script>
   </body>
 </html>
-
